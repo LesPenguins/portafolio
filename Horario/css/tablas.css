@@ -1,0 +1,43 @@
+@font-face{
+    font-family: delight;
+    src: url(../fonts/DelightCandles.ttf) format('truetype');
+}
+/*Botón*/
+.h1{
+    color: black;
+    padding: 6px;
+    background-color: #E3B448;
+    border-radius: 5px;
+    size: 20px;
+    font-family: 'Trebuchet MS';
+}
+table{
+    width: 100%;
+    border-collapse: collapse; /* para evitar border separados de las celdas */
+    text-align: center;
+}
+th, td {
+    font-family: delight;
+    border:1px solid black;
+}
+.rojo{
+    background-color: lightcoral;
+}
+.azul{
+    background-color: royalblue;
+}
+.verde{
+    background-color: seagreen;
+}
+.morado{
+    background-color: slateblue;
+}
+.amarillo{
+    background-color: tan;
+}
+.naranja{
+    background-color: orange;
+}
+.gris{
+    background-color: gray;
+}

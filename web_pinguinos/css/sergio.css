@@ -1,0 +1,63 @@
+.parrafo{
+	color: white;
+}
+body{
+	background-color: #030303;
+}
+h1{
+	color: white;
+	border: solid 10px;
+	border-color: #807F7F;
+	border-width: 10px;
+	background-color: #807F7F;
+}
+h2{
+	color: #2B2B2B;
+
+}
+.picture{
+	width: 30%;
+	border: solid 10px;
+	border-color: #484848;
+	float: right;
+}
+.picture2{
+	width: 20%;
+	border: solid 10px;
+	border-color: #484848;
+	float: right;
+
+}
+/* Columna con el menú de navegación */
+  .column.side {
+    margin-bottom: 100%;
+    background-color: #505050;
+    width: 25%;
+    padding: 10px;
+  }
+ /* Estilo de la cabecera */
+  .header {
+    background-color: #383838;
+    padding: 10px;
+    font-size: 10px;
+  }
+ /* Estilo de los enlaces */
+  a{
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 7px;
+  }
+  a:hover {
+    background-color: #807F7F;
+  }
+  li{
+    list-style: none;
+    padding: 3px;
+  }
+  /* Crea dos columnas una al lado de la otra */
+  .column {
+    float: left;
+    padding: 10px;
+  }

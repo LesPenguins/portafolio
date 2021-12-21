@@ -1,0 +1,41 @@
+.sidenav {
+    color: white;
+    font-family: 'Trebuchet MS';
+    border-radius: 5%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background: #3D519A;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+    margin: 5px;
+    border-radius: 5%;
+    background-color: #99CFFF;
+    color: #064579;
+  }
+  
+  .main {
+    color: white;
+    margin-left: 140px;
+    font-size: 28px;
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 480px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

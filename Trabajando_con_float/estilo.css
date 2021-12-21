@@ -1,0 +1,17 @@
+body{
+    background-color: lightcyan;
+}
+header{
+    float: left;
+    margin: 1px;
+    color: red;
+    background-color: grey;
+}
+#margenes{
+    text-align: center;
+    border: 4pt;
+    border-color: lightblue;
+    background-color: green;
+    margin: 200px;
+    padding: 30px;
+}

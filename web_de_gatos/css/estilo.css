@@ -1,0 +1,157 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header{
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+h1{
+    width: 90%;
+    display: block;
+    margin:auto;
+    padding: 10px;
+}
+p{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+#banner{
+    width: 90%;
+    display: block;
+    margin: auto;
+    border: solid 10px;
+    border-color: white;
+}
+#logo{
+    width: 20%;
+    margin-left: 4%;
+    float: left;
+    margin-right: 20px;
+}
+nav {
+    font-size: large;
+    float:left;
+    margin-left: 20%;
+}
+nav ul{
+    list-style: none;
+    float: center;
+}
+nav li{
+    align-items: center;
+    display: inline;
+    padding: 2px;
+    margin: 3px;
+}
+nav a{
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+nav a:hover{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gray;
+}
+
+#principal{
+    background-color: lightgray;
+}
+.articulos{
+    text-align: justify;
+    margin-right: -20px;
+    float: left;
+    align-items: center;
+    margin: auto;
+    width: 25%;
+    margin-bottom: 100px;
+}
+.picture{
+    border: solid gray;
+    border-width: 10px;
+    margin-left: 6%;
+    width: 84%;
+}
+.titulo{
+    margin-left: 6%;
+    color: #ff6666;
+}
+
+#principal a{
+    background-color: #bdbdbd;
+    padding: 10px;
+    margin-left: 6%;
+    color: #ff6666;
+    font-size: large;
+    text-decoration: none;
+}
+#tumbado{
+    width: 30%;
+    float: left;
+}
+#quinto{
+    width: 50%;
+    float: right;
+}
+#top{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#titulo2{
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 4%;
+    font-size: 40px;
+    color: #ff6666;
+}
+#quinto{
+    margin-left: 4%;
+    width: 100%;
+    background-color: lightgray;
+}
+#tumbado{
+    margin-left: 4%;
+    margin: 1%;
+    border: solid gray;
+    border-width: 10px;
+    float: left;
+    width: 300px;
+}
+#catpaw{
+    float: right;
+}
+footer{
+    width: 100%;
+    float: left;
+    background-image: url(../img/footer.png);
+    height: 301px;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+}
+
+#catpaw{
+    width: 23%;
+    float: right;
+    position: bottom;
+}
+
+#hello,#bla,#purr{
+    text-align: justify;
+    float: left;
+    align-items: center;
+    width: 25%;
+
+}
+#valid, #copy{
+    padding-top: 10px;
+    width: 100%;
+    position: bottom;
+    color: white;
+}

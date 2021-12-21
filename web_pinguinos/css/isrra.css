@@ -1,0 +1,111 @@
+/* Cuerpo principal de la página */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #020202;
+  }
+  
+  /* Estilo de la cabecera */
+  .header {
+    background-color: #383838;
+    padding: 10px;
+    font-size: 10px;
+  }
+  
+  /* Crea dos columnas una al lado de la otra */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Columna con el menú de navegación */
+  .column.side {
+    background-color: #505050;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Columnas con la películas que hay */
+  .column.middle {
+    width: 75%;
+  }
+  
+  /* Elimina el espacio detrás de la columna */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Estilo del Footer */
+  .footer {
+    background-color: #383838;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Hace que las columas se pongan una encima de otra cuando el ancho de la pagina es inferior a 600 px */
+  @media (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+  /* Estilo de la rejilla de películas */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  /* Estilo de cada uno de los ítems de la rejilla */
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  /* Estilo de los enlaces */
+  a{
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 7px;
+  }
+  a:hover {
+    background-color: #807F7F;
+  }
+  li{
+    list-style: none;
+    padding: 3px;
+  }
+
+.rico{
+  float: left;
+  color: white;
+  padding-left: 25px;
+  width: 50%;
+}
+
+.imagenrico{
+  padding: 5px;
+}
+
+.kowalski{
+  float: left;
+  color: white;
+  padding-left: 25px;
+  width: 50%;
+}
+
+.imagenkowalski{
+  padding: 15px;
+}

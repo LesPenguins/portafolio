@@ -1,0 +1,91 @@
+body{
+    background-color: #EEEE;
+}
+header img{
+    margin-left: 7%;
+    margin-right: 7%; 
+}
+#content{
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: #FFFF;
+}
+nav{
+    background-color: white;
+    float: left;
+    padding-top: 1px;
+    padding-left: 10px;
+    }
+    nav ul{
+        list-style: circle;
+    }
+    nav a{
+        color: black;
+        text-decoration: none;
+    }
+    nav a:hover{
+        color: #808080;
+        text-decoration: #808080;
+    }
+    nav h3{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #808080;
+    }
+article{
+    padding: 10px;
+    float:  right;
+    width: 50%;
+    max-width: 30%;
+}
+    #principal h1 {
+        float: left;
+        margin-right: 100px;
+    }
+    #principal ul {
+        width: 150px;
+    }
+    #principal ul a{
+        text-decoration: none;
+        list-style: none;
+        padding: 5px;
+        background-color: lightgray;
+    }
+    #negro{
+        background-color: black;
+    }
+    #celeste{
+        background-color: cyan;
+    }
+    #verde{
+        background-color: green;
+    }
+    #azul{
+        background-color: blue;
+    }
+    #turquesa{
+        background-color: lightseagreen;
+    }
+    #naranja{
+        background-color: orange;
+    }
+#learn{
+    background-color: lightgray;
+    padding-bottom: 80px;
+    padding-top: 5px;
+    width: 700px;
+}
+#principal{
+    max-width: fit-content;
+    overflow: auto;
+}
+#secundario{
+    overflow: auto;
+    max-height: fit-content;
+}
+
+aside{
+    float: right;
+}
+footer{
+    background-color: white;
+}
