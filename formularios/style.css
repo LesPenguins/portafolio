@@ -1,0 +1,21 @@
+.Formulario{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 4px;
+    border-width: 2px;
+    padding: 9px;
+    width: max-content;
+}
+.nombre{
+    margin-right: 15px;
+    float: left;
+    width: max-content;
+}
+.apellido{
+    width: max-content;
+    float: left;
+}

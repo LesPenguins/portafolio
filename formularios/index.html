@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <div class="Formulario">
+        <form action="/mensaje" method="post">
+            <div class="nombre">
+              <label>Nombre</label><br>
+              <input type="text" name="nombre" required>
+            </div>
+            <div class="apellido">
+              <label>Apellido</label><br>
+              <input type="text" name="apellido" required>
+            </div>
+            <br><br><br>
+            <div>
+              <label>Email</label><br>
+              <input type="email" name="email" required>
+            </div>
+            <div>
+              <label>Asunto</label><br>
+              <select>
+                  <option value=cita>Pedir cita previa</option>
+                  <option value=presupuesto>Pedir presupuesto web</option>
+                  <option value=otros>Otros</option>
+              </select>
+              <br>
+              <br>
+            </div>
+            <div>
+                <label>¿Cómo nos ha conicido?</label><br>
+                <input type="radio" id="amigo" name="conocido" value="amigo">
+                <label for="amigo">Por un amigo</label>
+                <input type="radio" id="google" name="conocido" value="google">
+                <label for="google">Googleando</label>
+                <input type="radio" id="buzoneo" name="conocido" value="buzoneo">
+                <label for="buzoneo">Buzoneo</label>
+                <input type="radio" id="otros" name="conocido" value="otros">
+                <label for="otros">Otros</label>
+            </div>
+            <br>
+            <label for="mensaje">Mensaje</label><br>
+            <textarea name="mensaje" id="mensaje" cols="50" rows="7"></textarea>
+            <div>
+                <br>
+              <label>
+                <input type="checkbox" value="terms" required>
+                He leído y acepto los <a href="/terms">términos y condiciones</a>
+              </label>
+              <br>
+              <br>
+            </div>
+            <div>
+              <button>Sign up</button>
+              <button type="reset">Limpiar Formulario</button>
+            </div>
+          </form>
+    </div>
+
+</body>
+</html>

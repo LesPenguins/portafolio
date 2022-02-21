@@ -1,0 +1,76 @@
+body {
+    background-image: url("./img/bar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .title {
+    text-align:center;
+    margin-left: 15px;
+    color:#4D4D4D;
+  }
+  
+  .formbox {
+    margin: 50px auto;
+    width: 1000px;
+    height: auto fit-content;
+    border-radius: 2px/2px;
+    background-color: white;
+    border: 7px solid #cbc9c9;
+  }
+  ul li {
+    list-style: none;
+    padding: 10px;
+  }
+  .campo{
+    float: left;
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+    margin: 2px;
+    color: black;
+  }
+
+  input {
+    width: fit-content;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 800px;
+    height: 100px;
+    color:#9aa3ad;
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+  
+  }
+  .other {
+    width: 70px;
+  
+  }
+  .reservar {
+    background: #8E81CE;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height:30px;
+    margin-top: -15px;
+    font-size:16px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .php{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }

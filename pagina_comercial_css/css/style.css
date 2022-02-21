@@ -1,0 +1,322 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+	background: #212121;
+	font-size:22px;
+	line-height: 32px;
+	color: #ffffff;
+	word-wrap: break-word;
+	font-family: 'Open Sans', sans-serif;
+	}	
+
+h1 {
+	line-height: 50px;
+	margin-top: 30px;
+	text-align:center;
+	font-size:60px;
+	font-family: 'Bree Serif', 'serif';
+	}
+	
+h2{
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+}
+
+h3 a {
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+}
+.button{
+	width: 50%;
+	margin: auto;
+	border-style: solid;
+	border-color: #E64A19;
+	border-radius: 4px;
+	background-color: #727172;
+	text-decoration: none;
+}
+
+
+#container {
+	position: relative;
+	margin: 0 auto;
+}
+
+.banner{
+	background-image: url(../img/bookshelve.jpg);
+	height: 200px;
+	padding: 40px;
+	text-align: center;
+}
+
+p {
+	padding: 5px;
+	text-align: justify;
+	size: 13px;
+	font-family: sans-serif;
+}
+
+nav {
+	margin: 50px 0;
+	background-color: #E64A19;
+}
+
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #E64A19;
+}
+
+nav a {
+
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' ⤵ '; }
+li > a:only-child:after { content: ' '; }
+
+@media only screen and (min-width:1800px){
+	body {
+		margin: auto;
+		width: 1000px;
+		background: #212121;
+		font-size:22px;
+		line-height: 32px;
+		color: #ffffff;
+		word-wrap:break-word !important;
+		font-family: 'Open Sans', sans-serif;
+		}
+}
+
+@media only screen and (min-width:900px){
+/*Footer*/
+	.footer #button{
+		width:10px;
+		height:10px;
+		border: #727172 10px solid;
+		border-radius:10px;
+		margin:0 auto;
+		position:relative;
+	}
+
+	.footer #button:hover{
+		width:35px;
+		height:35px;
+		border: #3A3A3A 12px solid;
+	}
+
+	.footer {
+		bottom:0;
+		left:0;
+		position:fixed;
+		width: 100%;
+		height: 2em;
+		overflow:hidden;
+		margin:0 auto;
+
+	}
+
+	.footer:hover {
+		transition: all 1s ease;
+		height: 10em;
+	}
+
+	.footer #container{
+		margin-top:5px;
+		width:100%;
+		height:100%;
+		position:relative;
+		top:0;
+		left:0;
+		background: #3A3A3A;
+	}
+
+	.footer #cont{
+		position:relative;
+		top:-45px;
+		right:190px;
+		width:150px;
+		height:auto;
+		margin:0 auto;
+	}
+
+	.footer_center{
+
+		margin-left: -190px;
+		width: 900px;
+		text-align:center;
+	}
+
+	.footer h3{
+		font-family: 'Helvetica';
+		font-size: 30px;
+		font-weight: 100;
+		margin-top:70px;
+		margin-left:40px;
+	}
+	.footer p{
+		text-align: center;
+
+	}
+}
+
+/* ------Nav menu for mobile----- */
+@media only screen and (max-width:900px){
+
+nav {
+	margin: 50px 0;
+	background-color: #E64A19;
+}
+
+nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+}
+	
+nav ul li {
+	border: 1px solid #000;
+	display:inline-block;
+	background-color: #E64A19;
+}
+
+nav a {
+
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' ⤵ '; }
+li > a:only-child:after { content: ' '; }
+
+}
+
+/*Form*/
+input[type=text],input[type=email], select, textarea {
+	background-color: #b8b8b8;
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #727172; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: #3A3A3A;
+	color: #ffffff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: #727172;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	border-radius: 5px;
+	background-color: #E64A19;
+	padding: 20px;
+  }

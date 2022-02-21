@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reservas Restaurante</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <head>
+        <title>My First Form </title>
+    </head>
+    <body>
+      <div class="formbox">
+      <h1 class="title">Reservas</h1>
+  
+      <form action="./reserva.php" method="post">
+        <ul>
+          <li class="campo">
+            <label for="name">Nombre Completo:</label>
+            <input id="name" name="name" placeholder="Pepito de los Palotes" required/>
+          </li>
+          
+          <li class="campo">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="correo@mail.es" required/>
+          </li>
+        
+          <li class="campo">
+            <label for="telf">Número De teléfono:</label>
+            <input id="tel" name="tel" type="tel" placeholder="692617105" maxlength="9" required/>
+          </li>
+          
+          <li class="campo">
+            <label for="ocasion">Ocasión de la reserva</label>
+            <input type="ocasion" name="ocasion" placeholder="Cumpleaños"/>
+          </li>
+
+          <li>
+            <label for="comensales">Número de comensales</label>
+            <input type="number" name="comensales" placeholder="1" required/>
+          </li>
+          
+          <li>
+            <label for="date">Fecha de la reserva:</label>
+            <input type="date" id="dete" name="date" value="2022-02-22" min="2021-01-01" max="2023-12-31" required>
+         
+            <label for="hora">Hora de la reserva: </label>
+            <input type="time" id="time" name="time" value="12:30" min="10:00" max="2:00" required>
+          </li>
+
+          <li>
+            <p>Selecciona tu género:</p>
+              <div>
+                <input type="radio" id="genero" name="genero" value="hombre"> Hombre
+                <input type="radio" id="genero" name="genero" value="mujer"> Mujer
+                <input type="radio" id="genero" name="genero" value="otros"> Otros
+                <input type="text" placeholder="Zanahoria">
+              </div>
+          </li>
+          
+          <li>
+            <label for="language">¿Qué idioma hablas?:</label>
+            <input type="checkbox" name="english" id="english"/> English
+            <input type="checkbox" name="spanish" id="spanish"/> Español
+            <input type="checkbox" name="other" id="other"/> Otro <input class="other" placeholder="中国人"/>
+          </li>
+          
+          <li>
+            <label for="about">Añadir una petición especial</label>
+            <textarea id="about" name="about" placeholder="Quiero que me llenéis la mesa de pétalos de rosas..."></textarea>
+          </li>
+          
+          <li>
+            <input type="checkbox" name="register" id="register"/> Quiero registrarme para recibir ofertas y noticias de este restaurante por correo electrónico. <br> <br>
+            <input type="checkbox" name="ofertas" id="ofertas"/> Quiero registrarme para recibir ofertas y noticias de esta reserva por correo electrónico. <br> <br>
+            <input type="checkbox" name="novedades" id="novedades" required/> Sí, quiero recibir novedades y recordatorios sobre mis reservas por mensaje de texto. <br> <br>
+          </li>
+
+          <li>
+            <input type="submit" value="Reservar" class="reservar"/>
+          </li>
+          <li>
+            <input type="reset" value="Borrar" class="reservar"/>
+          </li>
+        </form>
+      </ul>
+      </div>
+    </body>
+</html>

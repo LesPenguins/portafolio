@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8"/>
+	<title>HTML5: formularios y bases de datos</title>
+  </head>
+
+  <body>
+	<header>
+ 	      <h1>Probando formularios con bases de datos</h1>
+	</header>
+
+	<nav>
+		Registrar nuevo dato<br>
+		<a href="mostrar.php">Ver datos registrados</a><br>
+	</nav>
+
+	<section>
+		<div>
+			<h2>Nuevo dato</h2>
+		</div>
+		<article>
+ 	      <form action="recoger.php" method="post">
+ 	      	<label for="nombre">Nombre:</label>
+ 	      	<input type="text" id="nombre" name="nombre" autofocus="autofocus">
+ 	      	<label for="valor">Valor:</label>
+ 	      	<input type="text" id="valor" name="valor">
+ 	      	<input type="submit" value="Guardar">
+ 	      </form>
+ 	   </article>
+	</section>
+
+	<footer>
+		<h5>
+ 	      2022. 1º ASIR - IES Guadalpín<br>
+ 	      Marbella
+ 	    </h5>
+	</footer>
+  </body>
+</html>
