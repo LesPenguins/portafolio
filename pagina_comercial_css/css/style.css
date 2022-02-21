@@ -49,6 +49,10 @@ a {
 	text-decoration: none;
 }
 
+.video{
+	width: fit-content;
+	margin: auto;
+}
 
 #container {
 	position: relative;
